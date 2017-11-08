@@ -19,7 +19,7 @@ function waitContainer {
 }
 
 function import_database {
-    cat backup.sql | docker exec -i mysql /usr/bin/mysql -u root --password=root challenge
+    cat backup.sql | docker exec -i mysql /usr/bin/mysql -u root --password=root hackathon
 }
 
 function import {
@@ -67,7 +67,7 @@ then
 elif [ "$1" == "export_database" ]
 then
     echo -e "\x1B[0;32mSaving mysql database.\x1B[0m"
-    docker exec mysql /usr/bin/mysqldump -u root --password=root challenge > backup.sql
+    docker exec mysql /usr/bin/mysqldump -u root --password=root hackathon > backup.sql
 
 elif [ "$1" == "help" ]
 then
