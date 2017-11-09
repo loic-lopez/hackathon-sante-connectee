@@ -39,6 +39,11 @@
     <div class="form"></div>
     <div class="form">
         <h2>Creer un compte</h2>
+            @if($errors->count())
+                @foreach ($errors->all() as $error)
+                    <div class="label-danger">{{ $error }}</div>
+                @endforeach
+            @endif
             <form method="post" action="{{ route('register') }}">
                 {{ csrf_field() }}
                 <input type="text" name="username" placeholder="Nom d'utilisateur"/>
