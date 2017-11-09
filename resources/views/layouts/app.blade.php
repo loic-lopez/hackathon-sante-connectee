@@ -131,7 +131,10 @@
                             @else
                                 <li><a href="/profile">Profil</a></li>
                             @endguest
-                                <li><a href="/blog">Blog</a></li>
+                            @if(Auth::user()->account_type == 'medecin' || Auth::user()->account_type == 'aidant')
+                                <li><a href="/doctor_section">Gestion patients</a></li>
+                            @endif
+                            <li><a href="/blog">Blog</a></li>
                             @if(Auth::check())
                                         <li><a href="/logout">Se déconnecter</a></li>
                                 @endif
