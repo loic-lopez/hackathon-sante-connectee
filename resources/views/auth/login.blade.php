@@ -29,8 +29,10 @@
     </div>
     <div class="form">
         <h2>Login to your account</h2>
-        <form method="post" action="/login">
+        <form method="post" action="{{ route('login') }}">
+            {{ csrf_field() }}
             <input type="text" name="username" placeholder="Username"/>
+            <input type="text" name="email" placeholder="E-mail"/>
             <input type="password" name="password" placeholder="Password"/>
             <button>Login</button>
         </form>
