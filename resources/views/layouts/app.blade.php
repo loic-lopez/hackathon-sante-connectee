@@ -76,6 +76,10 @@
     <link rel="stylesheet" type="text/css" href="/css/shortcodes.css">
 
 
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.4/css/bootstrap-select.min.css">
+
+
     <!--[if lt IE 9]>
     <script src="/js/html5/respond.min.js"></script>
     <![endif]-->
@@ -183,5 +187,7 @@
 
 <!-- Library - Theme JS -->
 <script src="/js/functions.js"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.4/js/bootstrap-select.min.js"></script>
 </body>
 </html>

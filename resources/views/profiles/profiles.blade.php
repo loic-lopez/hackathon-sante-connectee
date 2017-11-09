@@ -1,6 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
+
     <div class="page-banner team-banner container-fluid no-padding">
         <!-- Container -->
         <div class="container">
@@ -59,14 +60,22 @@
                 @if( Auth::user()->account_type == 'patient')
                     <p>Votre courbe de glycémie:<br>
                         <img src="https://www.medtronicdiabete.ca/sites/canada/www.medtronicdiabete.ca/files/styles/popup_full/public/enlite_graph_lrg.png?itok=XPQPgNkh"></p>
-                    @if( Auth::user()->medecin_traitant == null)
-                        <form method="post" action="">
-                            <p>Médecin Traitant:
-                                <input type="text" name="medecin_traitant" placeholder="Nom du médecin"></p>
-                        </form>
-                    @else
-                        <p>Médecin traitant: <b>{{ Auth::user()->medecin_traitant }}</b></p>
-                    @endif
+                    <p>Médecin traitant: <b>{{ Auth::user()->doctor }}</b></p>
+
+                    <form method="post" action="/update/doctor">
+                        {{ csrf_field() }}
+                        <label>Médecin Traitant:
+                            <select class="selectpicker" name="doctor" data-live-search="true">
+                                @php
+                                    $doctors = \App\User::where('account_type', 'medecin')->get();
+                                @endphp
+                                @foreach($doctors as $doctor)
+                                    <option>{{ $doctor->firstname }} {{ $doctor->lastname }}</option>
+                                @endforeach
+                            </select>
+                        </label>
+                        <button class="btn-submit">Sauvegarder</button>
+                    </form>
                 @else
                     <p>La courbe de glycémie de votre patient:<br>
                         <img src="https://www.medtronicdiabete.ca/sites/canada/www.medtronicdiabete.ca/files/styles/popup_full/public/enlite_graph_lrg.png?itok=XPQPgNkh"></p>
