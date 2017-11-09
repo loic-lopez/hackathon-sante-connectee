@@ -55,6 +55,22 @@
                 <p>Type de compte: <b>{{ Auth::user()->account_type }}</b></p>
                 <p>Adresse email: <b>{{ Auth::user()->email }}</b></p>
                 <p>Numéro de téléphone: <b>{{ Auth::user()->phone }}</b></p>
+
+                @if( Auth::user()->account_type == 'patient')
+                    <p>Votre courbe de glycémie:<br>
+                        <img src="https://www.medtronicdiabete.ca/sites/canada/www.medtronicdiabete.ca/files/styles/popup_full/public/enlite_graph_lrg.png?itok=XPQPgNkh"></p>
+                    @if( Auth::user()->medecin_traitant == null)
+                        <form method="post" action="">
+                            <p>Médecin Traitant:
+                                <input type="text" name="medecin_traitant" placeholder="Nom du médecin"></p>
+                        </form>
+                    @else
+                        <p>Médecin traitant: <b>{{ Auth::user()->medecin_traitant }}</b></p>
+                    @endif
+                @else
+                    <p>La courbe de glycémie de votre patient:<br>
+                        <img src="https://www.medtronicdiabete.ca/sites/canada/www.medtronicdiabete.ca/files/styles/popup_full/public/enlite_graph_lrg.png?itok=XPQPgNkh"></p>
+                @endif
             </div>
         </div>
     </div><!-- Team Section -->
