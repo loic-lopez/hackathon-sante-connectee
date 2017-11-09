@@ -24,3 +24,5 @@ Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
 
 Route::get('/blog', 'Blog\BlogController@index');
+
+Route::get('/diet', 'Diet\DietController@index');
