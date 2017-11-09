@@ -61,8 +61,8 @@
                     <article class="blog-post-list col-md-12 col-sm-12 col-xs-12">
                         <div class="entry-header">
                             <div class="entry-cover">
-                                <a href="blog-post.html"><img src="images/blog-1.jpg" alt="blog-1"/></a>
-                                <a href="blog-post.html" class="read-more"><i class="fa fa-link"></i>Read More</a>
+                                <a href="blog-post.html"><img src="/img/patch.jpg" height="1%" alt="blog-1"/></a>
+                                <a href="blog-post.html" class="read-more"><i class="fa fa-link"></i>En savoir plus</a>
                             </div>
                         </div>
                         <div class="entry-content">
@@ -71,7 +71,7 @@
                                 <a href="#"><i class="fa fa-heart-o"></i>Favorite<span>(33)</span></a>
                                 <a href="#"><i class="fa fa-share-alt"></i>Share Post<span>(11)</span></a>
                             </div>
-                            <h3 class="entry-title"><a href="blog-post.html">Varying walking speed may burn more calories</a></h3>
+                            <h3 class="entry-title"><a href="blog-post.html">Une petite révolution dans le domaine de la santé</a></h3>
                             <div class="post-meta">
                                 <a href="#" title="25th sep 2015" class="post-date">25th sep 2015</a> by
                                 <a href="#" title="Mathov" class="post-admin">Mathov</a> in Hospital
@@ -82,8 +82,8 @@
                     <article class="blog-post-list col-md-12 col-sm-12 col-xs-12">
                         <div class="entry-header">
                             <div class="entry-cover">
-                                <a href="blog-post.html"><img src="images/blog-2.jpg" alt="blog-2"/></a>
-                                <a href="blog-post.html" class="read-more"><i class="fa fa-link"></i>Read More</a>
+                                <a href="blog-post.html"><img src="/img/logo.png" alt="blog-2"/></a>
+                                <a href="blog-post.html" class="read-more"><i class="fa fa-link"></i>En savoir plus</a>
                             </div>
                         </div>
                         <div class="entry-content">
@@ -92,31 +92,9 @@
                                 <a href="#"><i class="fa fa-heart-o"></i>Favorite<span>(11)</span></a>
                                 <a href="#"><i class="fa fa-share-alt"></i>Share Post<span>(12)</span></a>
                             </div>
-                            <h3 class="entry-title"><a href="blog-post.html">Latest Blog new Slider Image Post</a></h3>
+                            <h3 class="entry-title"><a href="blog-post.html">Diab'Health, une amélioration dans la vie quotidienne pour des personnes atteintes de diabète</a></h3>
                             <div class="post-meta">
-                                <a href="#" title="25th sep 2015" class="post-date">25th sep 2015</a> by
-                                <a href="#" title="Mathov" class="post-admin">Mathov</a> in Hospital
-                            </div>
-                            <p>Voluptatem accusantium dolormque laudantium sa tota rem aperiam, eaque ipsa dicta sunt explicabo nemo enim ipsam [...] </p>
-                        </div>
-                    </article>
-                    <article class="blog-post-list col-md-12 col-sm-12 col-xs-12">
-                        <div class="entry-header">
-                            <div class="entry-cover">
-                                <a href="blog-post.html"><img src="images/blog-3.jpg" alt="blog-3"/></a>
-                                <a href="blog-post.html" class="read-more"><i class="fa fa-link"></i>Read More</a>
-                            </div>
-                        </div>
-                        <div class="entry-content">
-                            <div class="entry-meta">
-                                <a href="#"><i class="fa fa-comment-o"></i>Comments<span>(12)</span></a>
-                                <a href="#"><i class="fa fa-heart-o"></i>Favorite<span>(11)</span></a>
-                                <a href="#"><i class="fa fa-share-alt"></i>Share Post<span>(12)</span></a>
-                            </div>
-                            <h3 class="entry-title"><a href="blog-post.html">Latest Blog new Slider Image Post</a></h3>
-                            <div class="post-meta">
-                                <a href="#" title="25th sep 2015" class="post-date">25th sep 2015</a> by
-                                <a href="#" title="Mathov" class="post-admin">Mathov</a> in Hospital
+                                <a href="#" title="25th sep 2015" class="post-date">8 novembre 2017</a> par Diab'Health
                             </div>
                             <p>Voluptatem accusantium dolormque laudantium sa tota rem aperiam, eaque ipsa dicta sunt explicabo nemo enim ipsam [...] </p>
                         </div>
@@ -124,88 +102,7 @@
                     <!-- Pagination -->
                 </div><!-- Blog Area /- -->
                 <!-- Widget Area -->
-                <div class="col-md-3 col-sm-4 col-xs-12 widget-area no-left-padding">
-                    <!-- Widget Categories -->
-                    <aside class="widget widget-categories">
-                        <h3 class="widget-title">Categories</h3>
-                        <ul class="categories-type">
-                            <li><a href="#" title="Ambulance">Ambulance<span>(10)</span></a></li>
-                            <li><a href="#" title="Brain">Brain<span>(03)</span></a></li>
-                            <li><a href="#" title="Cardinal">Cardinal<span>(12)</span></a></li>
-                            <li><a href="#" title="Disease">Disease<span>(05)</span></a></li>
-                            <li><a href="#" title="Illness">Illness <span>(02)</span></a></li>
-                            <li><a href="#" title="Pain">Pain <span>(19)</span></a></li>
-                            <li><a href="#" title="Weight">Weight <span>(08)</span></a></li>
-                        </ul>
-                    </aside><!-- Categories /- -->
-
-                    <!-- Widget Recent Post -->
-                    <aside class="widget wiget-recent-post">
-                        <h3 class="widget-title">Recent Post</h3>
-                        <div class="recent-post-box">
-                            <div class="recent-img">
-                                <a href="blog-post.html"><img src="images/recent-1.jpg" alt="recent-1"/></a>
-                            </div>
-                            <div class="recent-title">
-                                <a href="blog-post.html">Were gonna pay a call on the Addams Family</a>
-                                <a href="#"><span><i class="fa fa-calendar"></i>Aug 06, 2015</span></a>
-                            </div>
-                        </div>
-                        <div class="recent-post-box">
-                            <div class="recent-img">
-                                <a href="blog-post.html"><img src="images/recent-2.jpg" alt="recent-1"/></a>
-                            </div>
-                            <div class="recent-title">
-                                <a href="blog-post.html">So lets make the most of this beautiful day</a>
-                                <a href="#"><span><i class="fa fa-calendar"></i>Sep 11, 2015</span></a>
-                            </div>
-                        </div>
-                        <div class="recent-post-box">
-                            <div class="recent-img">
-                                <a href="blog-post.html"><img src="images/recent-3.jpg" alt="recent-1"/></a>
-                            </div>
-                            <div class="recent-title">
-                                <a href="blog-post.html">We're gonna make our dreams come true.</a>
-                                <a href="#"><span><i class="fa fa-calendar"></i>Nov 18, 2015</span></a>
-                            </div>
-                        </div>
-                        <div class="recent-post-box">
-                            <div class="recent-img">
-                                <a href="blog-post.html"><img src="images/recent-4.jpg" alt="recent-1"/></a>
-                            </div>
-                            <div class="recent-title">
-                                <a href="blog-post.html">New life and new civilizations to boldly go</a>
-                                <a href="#"><span><i class="fa fa-calendar"></i>Dec 25, 2015</span></a>
-                            </div>
-                        </div>
-                    </aside><!-- Recent Post /- -->
-                    <!-- Widget Archives -->
-                    <aside class="widget widget-categories widget-archives">
-                        <h3 class="widget-title">Archives</h3>
-                        <ul class="categories-type archives-type">
-                            <li><a href="#" title="October 2015">October 2015<span>(10)</span></a></li>
-                            <li><a href="#" title="September 2015">September 2015<span>(03)</span></a></li>
-                            <li><a href="#" title="Augest 2015">Augest 2015<span>(12)</span></a></li>
-                            <li><a href="#" title="July 2015">July 2015<span>(05)</span></a></li>
-                        </ul>
-                    </aside><!-- Archives /- -->
-                    <!-- Widget Tags -->
-                    <aside class="widget widget-tags">
-                        <h3 class="widget-title">Tags</h3>
-                        <div class="tags">
-                            <a href="#" title="Amazing">Amazing</a>
-                            <a href="#" title="Envato">Envato</a>
-                            <a href="#" title="Themes">Themes</a>
-                            <a href="#" title="Clean">Clean</a>
-                            <a href="#" title="Responsiveness">Responsiveness</a>
-                            <a href="#" title="SEO">SEO</a>
-                            <a href="#" title="Mobile">Mobile</a>
-                            <a href="#" title="IOS">Ios</a>
-                            <a href="#" title="Flat">Flat</a>
-                            <a href="#" title="Design">Design</a>
-                        </div>
-                    </aside><!-- Widget Tags /- -->
-                </div><!-- Widget Area /- -->
+                <!-- Widget Area /- -->
             </div><!-- Row /- -->
         </div><!-- Container /- -->
     </div><!-- Page Content /- -->

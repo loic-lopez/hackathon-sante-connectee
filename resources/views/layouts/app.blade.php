@@ -103,7 +103,7 @@
                 <div class="row">
                     <div class="col-md-12 text-center">
                         <div class="location">
-                            <img src="images/location-ic.png" alt="Location"/>
+                            <img height="40" width="50" src="/img/main_logo.png" alt="Location"/>
                         </div>
                     </div>
                 </div>
