@@ -15,6 +15,10 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+//Route::group("/login", function () {
+//   Route::get('/', 'LoginController@showLoginForm');
+//});
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
