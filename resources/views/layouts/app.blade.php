@@ -18,7 +18,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Diab'Health</title>
+    <title>Maxi Health</title>
 
     <!-- Standard Favicon -->
     <link rel="icon" type="image/x-icon" href="/images/favicon.ico"/>
@@ -124,7 +124,8 @@
                     </div>
                     <div id="navbar" class="navbar-collapse collapse">
                         <ul class="nav navbar-nav">
-                            <li class="active"><a href="/">Home</a></li>
+                            <li class="active"><a href="/">Accueil</a></li>
+                            {{--<li><a href="about.html">About Us</a></li>--}}
                             @guest
                                 <li><a href="/login">Se connecter</a></li>
                                 <li><a href="/register">S'enregistrer</a></li>

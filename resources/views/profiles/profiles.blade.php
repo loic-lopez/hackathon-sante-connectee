@@ -4,9 +4,9 @@
     <div class="page-banner team-banner container-fluid no-padding">
         <!-- Container -->
         <div class="container">
-            <h3>{{ Auth::user()->username }}</h3>
-            <p>Welcome to your profile.</p>
-            <p>You can see here all your personal informations.</p>
+            <h3>Profil</h3>
+            <p>Bienvenue sur votre profil, <b><font color="#adff2f">{{ Auth::user()->username }}</font></b>.</p>
+            <p>Vous pouvez accéder ici à toutes vos informations personnelles.</p>
         </div><!-- Container /- -->
         <!-- Shape -->
         <div class="banner-shape container-fluid no-padding">
@@ -49,8 +49,12 @@
     <div id="team-section" class="container-fluid no-paddding team-section">
         <div class="container">
             <div class="section-header">
-                <h3>Personal informations</h3>
-                <p>.</p>
+                <h3>Informations personnelles</h3>
+                <p>Prénom: <b>{{ Auth::user()->firstname }}</b></p>
+                <p>Nom: <b>{{ Auth::user()->lastname }}</b></p>
+                <p>Type de compte: <b>{{ Auth::user()->account_type }}</b></p>
+                <p>Adresse email: <b>{{ Auth::user()->email }}</b></p>
+                <p>Numéro de téléphone: <b>{{ Auth::user()->phone }}</b></p>
             </div>
         </div>
     </div><!-- Team Section -->
