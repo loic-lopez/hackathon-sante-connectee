@@ -122,36 +122,9 @@
                         </div>
                     </article>
                     <!-- Pagination -->
-                    <nav class="ow-pagination">
-                        <ul class="pagination">
-                            <li>
-                                <a href="#" aria-label="Previous">
-                                    <span aria-hidden="true">&lt;</span>
-                                </a>
-                            </li>
-                            <li><a href="#">1</a></li>
-                            <li><a href="#">2</a></li>
-                            <li><a href="#">3</a></li>
-                            <li>
-                                <a href="#" aria-label="Next">
-                                    <span aria-hidden="true">&gt;</span>
-                                </a>
-                            </li>
-                        </ul>
-                    </nav><!-- Pagination /- -->
                 </div><!-- Blog Area /- -->
                 <!-- Widget Area -->
                 <div class="col-md-3 col-sm-4 col-xs-12 widget-area no-left-padding">
-                    <!-- Widget Search -->
-                    <aside class="widget widget-search">
-                        <h3 class="widget-title">Search Blog</h3>
-                        <div class="input-group">
-                            <input type="text" class="form-control" placeholder="Search Here">
-                            <span class="input-group-btn">
-									<button class="btn btn-default" type="button"><i class="fa fa-search"></i></button>
-								</span>
-                        </div>
-                    </aside><!-- Widget Search /- -->
                     <!-- Widget Categories -->
                     <aside class="widget widget-categories">
                         <h3 class="widget-title">Categories</h3>
@@ -165,18 +138,7 @@
                             <li><a href="#" title="Weight">Weight <span>(08)</span></a></li>
                         </ul>
                     </aside><!-- Categories /- -->
-                    <!-- Widget Social Media -->
-                    <aside class="widget widget-social-media">
-                        <h3 class="widget-title">Social Media</h3>
-                        <ul class="">
-                            <li><a href="#" class="tw" title="twitter"><i class="fa fa-twitter"></i></a></li>
-                            <li><a href="#" class="fb" title="facebook"><i class="fa fa-facebook"></i></a></li>
-                            <li><a href="#" class="gp" title="google-plus"><i class="fa fa-google-plus"></i></a></li>
-                            <li><a href="#" class="inst" title="instagram"><i class="fa fa-instagram"></i></a></li>
-                            <li><a href="#" class="ln" title="linkedin"><i class="fa fa-linkedin"></i></a></li>
-                            <li><a href="#" class="tm" title="tumblr"><i class="fa fa-tumblr"></i></a></li>
-                        </ul>
-                    </aside><!-- Categories /- -->
+
                     <!-- Widget Recent Post -->
                     <aside class="widget wiget-recent-post">
                         <h3 class="widget-title">Recent Post</h3>
