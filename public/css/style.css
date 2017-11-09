@@ -714,7 +714,7 @@ ul {
 	background-position: top center;
 }
 .blog-banner {
-	background-image: url("images/blog-banner.jpg");
+	background-image: url("/img/blog-banner.jpg");
 }
 .blog-post-banner {
 	background-image: url("images/blog-post-banner.jpg");
