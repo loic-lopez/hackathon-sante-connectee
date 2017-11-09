@@ -1,9 +1,14 @@
 <!DOCTYPE html>
-<!--[if lt IE 7 ]> <html class="ie6"> <![endif]-->
-<!--[if IE 7 ]>    <html class="ie7"> <![endif]-->
-<!--[if IE 8 ]>    <html class="ie8"> <![endif]-->
-<!--[if IE 9 ]>    <html class="ie9"> <![endif]-->
-<!--[if (gt IE 9)|!(IE)]><!--><html class=""><!--<![endif]-->
+<!--[if lt IE 7 ]>
+<html class="ie6"> <![endif]-->
+<!--[if IE 7 ]>
+<html class="ie7"> <![endif]-->
+<!--[if IE 8 ]>
+<html class="ie8"> <![endif]-->
+<!--[if IE 9 ]>
+<html class="ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html class=""><!--<![endif]-->
 <head>
     <meta charset="utf-8">
 
@@ -16,7 +21,7 @@
     <title>Maxi Health</title>
 
     <!-- Standard Favicon -->
-    <link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico"/>
 
     <!-- For iPhone 4 Retina display: -->
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images//apple-touch-icon-114x114-precomposed.png">
@@ -31,11 +36,15 @@
     <link rel="stylesheet" type="text/css" href="/libraries/loader/loaders.min.css">
 
     <!-- Library - Google Font Familys -->
-    <link href='https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700,700italic' rel='stylesheet'
+          type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900' rel='stylesheet'
+          type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Philosopher:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Lato:400,100,100italic,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Philosopher:400,400italic,700,700italic' rel='stylesheet'
+          type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,100,100italic,300,300italic,400italic,700,700italic,900,900italic'
+          rel='stylesheet' type='text/css'>
 
     <!-- Library - Bootstrap v3.3.5 -->
     <link rel="stylesheet" type="text/css" href="/libraries/bootstrap/bootstrap.min.css">
@@ -59,13 +68,12 @@
     <link rel="stylesheet" type="text/css" href="/css/navigation-menu.css">
 
     <!--[if IE]>
-    <link rel="stylesheet" type="text/css" href="/css/all-ie-only.css" />
+    <link rel="stylesheet" type="text/css" href="/css/all-ie-only.css"/>
     <![endif]-->
 
     <!-- Custom - Theme CSS -->
     <link rel="stylesheet" type="text/css" href="/css/style.css">
     <link rel="stylesheet" type="text/css" href="/css/shortcodes.css">
-
 
 
     <!--[if lt IE 9]>
@@ -95,7 +103,7 @@
                 <div class="row">
                     <div class="col-md-12 text-center">
                         <div class="location">
-                            <img src="images/location-ic.png" alt="Location" />
+                            <img src="images/location-ic.png" alt="Location"/>
                         </div>
                     </div>
                 </div>
@@ -106,7 +114,8 @@
             <div class="container">
                 <div class="row">
                     <div class="navbar-header">
-                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                                data-target="#navbar" aria-expanded="false" aria-controls="navbar">
                             <span class="sr-only">Toggle navigation</span>
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
@@ -115,20 +124,17 @@
                     </div>
                     <div id="navbar" class="navbar-collapse collapse">
                         <ul class="nav navbar-nav">
-                            <li class="active"><a href="index.html">Home</a></li>
+                            <li class="active"><a href="/">Home</a></li>
                             <li><a href="about.html">About Us</a></li>
-                            <li><a href="services.html">Services</a></li>
-                            <li><a href="team.html">Our Team</a></li>
-                            <li><a href="departments.html">departments</a></li>
-                            <li><a href="gallery.html">Gallery </a></li>
-                            <li class="dropdown">
-                                <a href="blog.html" class="dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false">Blog</a>
-                                <i class="ddl-switch fa fa-angle-down"></i>
-                                <ul class="dropdown-menu">
-                                    <li><a href="blog-post.html">Blog Post</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="contact-us.html">Contact</a></li>
+                            @guest
+                                <li><a href="/login">Log in</a></li>
+                                <li><a href="/register">Register</a></li>
+                                @else
+                                    <li><a href="/profile">Profile</a></li>
+                                    <li><a href="/diet">Nutrition</a></li>
+                                @endguest
+                                <li><a href="/blog">Blog</a></li>
+                                <li><a href="contact-us.html">Contact</a></li>
                         </ul>
                     </div>
                 </div>
