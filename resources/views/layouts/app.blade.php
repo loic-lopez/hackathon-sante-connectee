@@ -88,43 +88,14 @@
 <div class="main-container">
     <!-- Header -->
     <header class="header-main">
-        <!-- Top Header -->
-        <div class="top-header container-fluid no-padding">
-            <!-- Container -->
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6">
-                        <p>We believe every interaction with our patients is an opportunity!</p>
-                    </div>
-                    <div class="col-md-6 text-right">
-                        <ul>
-                            <li><a href="#" title="Facebook"><i class="fa fa-facebook"></i></a></li>
-                            <li><a href="#" title="Twitter"><i class="fa fa-twitter"></i></a></li>
-                            <li><a href="#" title="Google+"><i class="fa fa-google-plus"></i></a></li>
-                            <li><a href="#" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
-                            <li><a href="#" title="Tumblr"><i class="fa fa-tumblr"></i></a></li>
-                        </ul>
-                        <a href="#" title="Book Appointment"><span>+</span>Book Appointment</a>
-                    </div>
-                </div>
-            </div><!-- container /- -->
-        </div><!-- Top Header /- -->
         <!-- Logo Block -->
         <div class="middle-header container-fluid no-padding">
             <!-- Container -->
             <div class="container">
                 <div class="row">
-                    <div class="col-md-3 logo-block pull-left">
-                        <a href="#" title="Logo"><img src="images/logo.png" alt="Logo" /></a>
-                    </div>
-                    <div class="col-md-9 text-right pull-right">
+                    <div class="col-md-12 text-center">
                         <div class="location">
-                            <h3><img src="images/location-ic.png" alt="Location" /> Our Location</h3>
-                            <p>E44 - Web Corner, Melbourne - 18</p>
-                        </div>
-                        <div class="phone">
-                            <h3><img src="images/phone-ic.png" alt="phone" /> (+1)800 433 633</h3>
-                            <p>Call Us Now- 24/7 Customer Support</p>
+                            <img src="images/location-ic.png" alt="Location" />
                         </div>
                     </div>
                 </div>
