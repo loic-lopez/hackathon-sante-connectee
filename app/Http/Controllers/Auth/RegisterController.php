@@ -54,6 +54,7 @@ class RegisterController extends Controller
             'phone' => 'required|numeric',
             'firstname' => 'required|string|max:255',
             'lastname' => 'required|string|max:255',
+            'account_type' => 'required'
         ]);
     }
 
@@ -69,9 +70,10 @@ class RegisterController extends Controller
             'username' => $data['username'],
             'email' => $data['email'],
             'password' => bcrypt($data['password']),
-            'phone' => bcrypt($data['phone']),
-            'firstname' => bcrypt($data['firstname']),
-            'lastname' => bcrypt($data['lastname']),
+            'phone' => $data['phone'],
+            'firstname' => $data['firstname'],
+            'lastname' => $data['lastname'],
+            'account_type' => $data['account_type']
         ]);
     }
 }

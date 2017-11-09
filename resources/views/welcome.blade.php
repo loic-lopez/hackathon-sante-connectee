@@ -18,7 +18,7 @@
                         </div>
                         <div class="col-md-6 col-sm-6 no-padding">
                             <div class="banner-right">
-                                <img src="images/banner-main.png" alt="banner-main"/>
+                                <img src="https://vitalconnect.com/wp-content/uploads/2016/12/inpatient-1-tablet.png" alt="banner-main"/>
                             </div>
                         </div>
                     </div>
@@ -33,7 +33,7 @@
                         </div>
                         <div class="col-md-6 col-sm-6 no-padding">
                             <div class="banner-right">
-                                <img src="images/banner-main.png" alt="banner-main"/>
+                                <img src="http://premiumlayers.net/demo/html/maxihealth/images/banner-main.png" alt="banner-main"/>
                             </div>
                         </div>
                     </div>

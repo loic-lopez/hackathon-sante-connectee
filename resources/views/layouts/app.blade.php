@@ -18,7 +18,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Maxi Health</title>
+    <title>Diab'Health</title>
 
     <!-- Standard Favicon -->
     <link rel="icon" type="image/x-icon" href="/images/favicon.ico"/>
@@ -125,16 +125,16 @@
                     <div id="navbar" class="navbar-collapse collapse">
                         <ul class="nav navbar-nav">
                             <li class="active"><a href="/">Home</a></li>
-                            <li><a href="about.html">About Us</a></li>
                             @guest
-                                <li><a href="/login">Log in</a></li>
-                                <li><a href="/register">Register</a></li>
-                                @else
-                                    <li><a href="/profile">Profile</a></li>
-                                    <li><a href="/diet">Nutrition</a></li>
-                                @endguest
+                                <li><a href="/login">Se connecter</a></li>
+                                <li><a href="/register">S'enregistrer</a></li>
+                            @else
+                                <li><a href="/profile">Profil</a></li>
+                            @endguest
                                 <li><a href="/blog">Blog</a></li>
-                                <li><a href="contact-us.html">Contact</a></li>
+                            @if(Auth::check())
+                                        <li><a href="/logout">Se déconnecter</a></li>
+                                @endif
                         </ul>
                     </div>
                 </div>

@@ -2,7 +2,7 @@
 <html >
 <head>
     <meta charset="UTF-8">
-    <title>DiabHealth Login</title>
+    <title>DiabHealth</title>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
 
@@ -10,6 +10,7 @@
     <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css'>
 
     <link rel="stylesheet" href="/css/login_style.css">
+    <link rel="stylesheet" type="text/css" href="/libraries/bootstrap/bootstrap.min.css">
 
 
 </head>
@@ -21,7 +22,7 @@
 <!-- Button Mixin-->
 <!-- Pen Title-->
 <div class="pen-title">
-    <h1>Login</h1>
+    <h1>Se connecter</h1>
 </div>
 <!-- Form Module-->
 <div class="module form-module">
@@ -29,24 +30,21 @@
     </div>
     <div class="form">
         <h2>Login to your account</h2>
+
+        @if($errors->count())
+            @foreach ($errors->all() as $error)
+                <div class="error">{{ $error }}</div>
+            @endforeach
+        @endif
+
         <form method="post" action="{{ route('login') }}">
             {{ csrf_field() }}
-            <input type="text" name="username" placeholder="Username"/>
-            <input type="text" name="email" placeholder="E-mail"/>
-            <input type="password" name="password" placeholder="Password"/>
-            <button>Login</button>
+            <input type="text" name="username" placeholder="Nom d'utilisateur"/>
+            <input type="password" name="password" placeholder="Mot de passe"/>
+            <button>Se connecter</button>
         </form>
+        <a href="/register">S'enregistrer</a>
     </div>
-    {{--<div class="form">--}}
-        {{--<h2>Create an account</h2>--}}
-        {{--<form>--}}
-            {{--<input type="text" placeholder="Username"/>--}}
-            {{--<input type="password" placeholder="Password"/>--}}
-            {{--<input type="email" placeholder="Email Address"/>--}}
-            {{--<input type="tel" placeholder="Phone Number"/>--}}
-            {{--<button>Register</button>--}}
-        {{--</form>--}}
-    {{--</div>--}}
 </div>
 
 </body>

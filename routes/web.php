@@ -28,3 +28,5 @@ Route::get('/blog', 'Blog\BlogController@index');
 Route::get('/diet', 'Diet\DietController@index');
 
 Route::get('/profile', 'Profiles\ProfilesController@index');
+
+Route::get('/logout', 'Auth\LoginController@logout');
