@@ -60,6 +60,16 @@
                 @if( Auth::user()->account_type == 'patient')
                     <p>Votre courbe de glycémie:<br>
                         <img src="https://www.medtronicdiabete.ca/sites/canada/www.medtronicdiabete.ca/files/styles/popup_full/public/enlite_graph_lrg.png?itok=XPQPgNkh"></p>
+
+                    <p>Prévenir votre médecin traitant d'un problème:<br>
+                        <label>
+                            <input size="30" placeholder="mail de votre médecin" value="{{ Auth::user()->where('username',Auth::user()->doctor_username)->where('account_type', 'medecin')->first()->email }}">
+                            <br>
+                            <br>
+                            <button class="btn btn-primary">Envoyer</button>
+                        </label>
+                    </p>
+
                     <p>Médecin traitant: <b>{{ Auth::user()->doctor }}</b></p>
 
                     <form method="post" action="/update/doctor">
@@ -76,9 +86,6 @@
                         </label>
                         <button class="btn-submit">Sauvegarder</button>
                     </form>
-                @else
-                    <p>La courbe de glycémie de votre patient:<br>
-                        <img src="https://www.medtronicdiabete.ca/sites/canada/www.medtronicdiabete.ca/files/styles/popup_full/public/enlite_graph_lrg.png?itok=XPQPgNkh"></p>
                 @endif
             </div>
         </div>

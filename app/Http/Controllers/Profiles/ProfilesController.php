@@ -33,6 +33,7 @@ class ProfilesController extends Controller
                 User::where('account_type', 'medecin')
                     ->where('firstname', $doctorArray[0])
                     ->where('lastname', $doctorArray[1])->first()->username;
+
             $user->save();
             return redirect("/profile");
         }
