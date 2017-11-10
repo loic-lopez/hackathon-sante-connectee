@@ -38,4 +38,11 @@ class ProfilesController extends Controller
             return redirect("/profile");
         }
     }
+
+    public function profileForDoctor($patientId)
+    {
+        if (!$patientId)
+            abort(404);
+        return view('profiles.profiles_for_doctors')->with(['user' => User::whereId($patientId)->first()]);
+    }
 }

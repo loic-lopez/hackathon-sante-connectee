@@ -33,3 +33,5 @@ Route::get('/doctor_section', 'Doctor\DoctorSectionController@index');
 Route::get('/logout', 'Auth\LoginController@logout');
 
 Route::post('/update/doctor', 'Profiles\ProfilesController@updateDoctor');
+
+Route::get('/patient/{id}', 'Profiles\ProfilesController@profileForDoctor');
