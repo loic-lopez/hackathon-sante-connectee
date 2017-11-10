@@ -22,6 +22,7 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/blog', 'Blog\BlogController@index');
+Route::get('/blog/1', 'Blog\BlogController@blog');
 
 Route::get('/diet', 'Diet\DietController@index');
 

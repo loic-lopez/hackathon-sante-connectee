@@ -5,11 +5,11 @@
     <div class="page-banner blog-banner container-fluid no-padding">
         <!-- Container -->
         <div class="container">
-            <h3>Blog</h3>
-            <p>To take a trivial example, which of us ever undertakes laborious physical exercise,</p>
-            <p>except to obtain some advantage from it</p>
+            <h3>Notre blog</h3>
+            <p>Vous pouvez retrouver ici toutes les nouveautés à propos de notre solution,</p>
+            <p>mais aussi témoigner de votre ressenti</p>
             <ol class="breadcrumb">
-                <li><a href="#">home</a></li>
+                <li><a href="/">home</a></li>
                 <li class="active">Blog</li>
             </ol>
         </div><!-- Container /- -->
@@ -61,42 +61,37 @@
                     <article class="blog-post-list col-md-12 col-sm-12 col-xs-12">
                         <div class="entry-header">
                             <div class="entry-cover">
-                                <a href="blog-post.html"><img src="/img/patch.jpg" height="1%" alt="blog-1"/></a>
-                                <a href="blog-post.html" class="read-more"><i class="fa fa-link"></i>En savoir plus</a>
+                                <a href="/blog/1"><img src="/img/patch.jpg" height="1%" alt="blog-1"/></a>
+                                <a href="/blog/1" class="read-more"><i class="fa fa-link"></i>En savoir plus</a>
                             </div>
                         </div>
                         <div class="entry-content">
                             <div class="entry-meta">
-                                <a href="#"><i class="fa fa-comment-o"></i>Comments<span>(18)</span></a>
-                                <a href="#"><i class="fa fa-heart-o"></i>Favorite<span>(33)</span></a>
-                                <a href="#"><i class="fa fa-share-alt"></i>Share Post<span>(11)</span></a>
+                                <a href="#"><i class="fa fa-comment-o"></i>Commentaires<span>(3)</span></a>
                             </div>
-                            <h3 class="entry-title"><a href="blog-post.html">Une petite révolution dans le domaine de la santé</a></h3>
+                            <h3 class="entry-title"><a href="/blog/1">Une petite révolution dans le domaine de la santé</a></h3>
                             <div class="post-meta">
-                                <a href="#" title="25th sep 2015" class="post-date">25th sep 2015</a> by
-                                <a href="#" title="Mathov" class="post-admin">Mathov</a> in Hospital
+                                <p title="25th sep 2015" class="post-date">9 novembre 2017</p> par Diab'Health
                             </div>
-                            <p>Voluptatem accusantium dolormque laudantium sa tota rem aperiam, eaque ipsa dicta sunt explicabo nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione [...] </p>
+                            <p>Le nouveau patch Freestyle Libre permet de connaître son taux de glycémie facilement et à tout moment [...] </p>
                         </div>
                     </article>
                     <article class="blog-post-list col-md-12 col-sm-12 col-xs-12">
                         <div class="entry-header">
                             <div class="entry-cover">
-                                <a href="blog-post.html"><img src="/img/logo.png" alt="blog-2"/></a>
-                                <a href="blog-post.html" class="read-more"><i class="fa fa-link"></i>En savoir plus</a>
+                                <a href="/blog/1"><img src="/img/logo.png" alt="blog-2"/></a>
+                                <a href="/blog/1" class="read-more"><i class="fa fa-link"></i>En savoir plus</a>
                             </div>
                         </div>
                         <div class="entry-content">
                             <div class="entry-meta">
-                                <a href="#"><i class="fa fa-comment-o"></i>Comments<span>(12)</span></a>
-                                <a href="#"><i class="fa fa-heart-o"></i>Favorite<span>(11)</span></a>
-                                <a href="#"><i class="fa fa-share-alt"></i>Share Post<span>(12)</span></a>
+                                <a href="#"><i class="fa fa-comment-o"></i>Commentaires<span>(2)</span></a>
                             </div>
-                            <h3 class="entry-title"><a href="blog-post.html">Diab'Health, une amélioration dans la vie quotidienne pour des personnes atteintes de diabète</a></h3>
+                            <h3 class="entry-title"><a href="/blog/1">Diab'Health, une amélioration dans la vie quotidienne pour des personnes atteintes de diabète</a></h3>
                             <div class="post-meta">
-                                <a href="#" title="25th sep 2015" class="post-date">8 novembre 2017</a> par Diab'Health
+                                <p title="25th sep 2015" class="post-date">8 novembre 2017</p> par Diab'Health
                             </div>
-                            <p>Voluptatem accusantium dolormque laudantium sa tota rem aperiam, eaque ipsa dicta sunt explicabo nemo enim ipsam [...] </p>
+                            <p>Diab'Health vous propose une nouvelle solution pour vous accompagner dans la vie de tous les jours [...]</p>
                         </div>
                     </article>
                     <!-- Pagination -->
