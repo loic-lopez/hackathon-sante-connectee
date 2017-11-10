@@ -120,17 +120,17 @@
                     </div>
                     <div class="col-md-12">
                         <div class="leave-comment">
-                            <h3 class="section-heading">Leave Your Comment</h3>
+                            <h3 class="section-heading">Laisser un commentaire</h3>
                             <form class="comment-form" id="form">
                                 <div class="row">
                                     <div class="col-md-6 col-sm-6 form-group">
-                                        <input type="text" id="name" placeholder="Your Name" class="form-control">
+                                        <input type="text" id="name" placeholder="Votre nom" class="form-control">
                                     </div>
                                     <div class="col-md-12 form-group">
-                                        <textarea rows="7" placeholder="Your Comment" id="comment" class="form-control"></textarea>
+                                        <textarea rows="7" placeholder="Votre commentaire" id="comment" class="form-control"></textarea>
                                     </div>
                                     <div class="form-group">
-                                        <input class="btn btn-primary" type="button" name="post" id="post" value="Post Your Comment">
+                                        <input class="btn btn-primary" type="button" name="post" id="post" value="Réagissez">
                                     </div>
                                 </div>
                             </form>
